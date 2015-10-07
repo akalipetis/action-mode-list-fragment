@@ -20,7 +20,7 @@ Even though it was made for Android Studio, you can easily use the library with 
 5. Go to project properties for your __main project__ (CMD+I on a Mac), switch to Android tab on the left and add it as a library project.
 
 ## Usage
-This library is used in conjuction with the AppCompat library that was recently released - while it can be easily transformed to play with Actionbar Sherlock too. In order for the library to function properly, you must remember to call the superclass functions at the beggining of the methods you @Override. Also, there is just one more thing to remember, if you use onListItemClick method, you have to check
+This library is used in conjunction with the AppCompat library that was recently released - while it can be easily transformed to play with Actionbar Sherlock too. In order for the library to function properly, you must remember to call the superclass functions at the beggining of the methods you @Override. Also, there is just one more thing to remember, if you use onListItemClick method, you have to check
 
 	if getListView().getChoiceMode() == ListView.CHOICE_MODE_NONE ||  getListView().getChoiceMode() == ListView.CHOISE_MODE_SINGLE
 
